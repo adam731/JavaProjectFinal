@@ -13,6 +13,11 @@ public class Item {
         private final String name;
         private final String storageLocation;
 
+        /**
+         *
+         * @param name
+         * @param storageLocation
+         */
         Type(String name, String storageLocation) {
             this.name = name;
             this.storageLocation = storageLocation;
@@ -44,50 +49,98 @@ public class Item {
 
     }
 
+    /**
+     * Returns get manufacturer object
+     * @return getmanufacturer
+     */
     public String getManufacturer() {
         return manufacturer;
     }
 
+    /**
+     *  Sets manfacturer object
+     * @param manufacturer
+     */
     public void setManufacturer(String manufacturer) {
         this.manufacturer = manufacturer;
     }
 
+    /**
+     *  Gets model object
+     * @return model
+     */
     public String getModel() {
         return model;
     }
 
+    /**
+     *  Sets model object
+     * @param model
+     */
     public void setModel(String model) {
         this.model = model;
     }
 
+    /**
+     * gets price of object
+     * @return getPrice
+     */
     public double getPrice() {
         return price;
     }
 
+    /**
+     * sets price of object
+     * @param price
+     */
     public void setPrice(double price) {
         this.price = price;
     }
 
+    /**
+     * gets get quantity of object
+     * @return
+     */
     public int getQuantity() {
         return quantity;
     }
 
+    /**
+     * sets quantity of object
+     * @param quantity
+     */
     public void setQuantity(int quantity) {
         this.quantity = quantity;
     }
 
+    /**
+     * gets getType of object
+     * @return
+     */
     public Type getType() {
         return type;
     }
 
+    /**
+     *  sets setType of object
+     * @param type
+     */
     public void setType(Type type) {
         this.type = type;
     }
 
+    /**
+     *  gets store of object
+     * @return
+     */
     public Store getStore() {
         return store;
     }
 
+    /**
+     *  sets store of object
+     * @param store
+     */
     public void setStore(Store store) {
         this.store = store;
     }

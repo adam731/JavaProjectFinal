@@ -12,7 +12,7 @@ public class Invoice {
     private Date purchaseDate;
 
     /**
-     *
+     * Constructor for customer and store
      * @param customer
      * @param store
      */
@@ -23,7 +23,7 @@ public class Invoice {
     }
 
     /**
-     *
+     * gets item sold from an array list for invoice class
      * @return
      */
     public ArrayList<Item> getItemsSold() {
@@ -31,7 +31,7 @@ public class Invoice {
     }
 
     /**
-     *
+     * sets item sold from an array list for invoice class
      * @param itemsSold
      */
     public void setItemsSold(ArrayList<Item> itemsSold) {
@@ -39,7 +39,7 @@ public class Invoice {
     }
 
     /**
-     *
+     * gets customer class and returns it for invoice class
      * @return
      */
     public Customer getCustomer() {
@@ -47,7 +47,7 @@ public class Invoice {
     }
 
     /**
-     *
+     * sets customer class and returns it for an invoice class
      * @param customer
      */
     public void setCustomer(Customer customer) {
@@ -55,7 +55,7 @@ public class Invoice {
     }
 
     /**
-     *
+     * sets for customer and returns it for an invoice class
      * @return
      */
     public Store getStore() {
@@ -63,7 +63,7 @@ public class Invoice {
     }
 
     /**
-     *
+     * getter for customer and returns it for an invoice class
      * @param store
      */
     public void setStore(Store store) {
@@ -113,9 +113,6 @@ public class Invoice {
         return total;
     }
 
-    /**
-     *
-     */
     public void displayInvoice() {
         // PSEUDO code
         // (print) Make ----
